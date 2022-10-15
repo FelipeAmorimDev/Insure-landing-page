@@ -15,9 +15,7 @@
 }
 
 .principal-content{
-  padding-top: 100px;
-  padding-right: 20px;
-  padding-left: 160px;
+  padding: 20px;
   display: grid;
   align-self: flex-start;
   justify-items: flex-start;
