@@ -1,0 +1,27 @@
+.header-bg{
+  background-color: var(--cor-5);
+}
+
+.header-container{
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px 16px;
+
+}
+
+.nav-menu{
+  display: flex;
+  gap: 24px;
+}
+
+.nav-menu li > a{
+  padding: 8px 16px;
+}
+
+.botao{
+  
+  border: 2px solid var(--cor-1);
+}
