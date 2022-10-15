@@ -1,0 +1,35 @@
+.section-aboutus{
+  display: grid;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.sobre-lista{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 30px;
+}
+
+.sobre-item p{
+  max-width: 40ch;
+}
+
+@media (max-width:600px){
+  .section-aboutus{
+    text-align: center;
+  }
+  .sobre-lista{
+  
+  grid-template-columns: 1fr;
+  justify-items: center;
+  }
+
+  .sobre-item{
+    display: grid;
+    justify-items: center;
+   
+  }
+
+ 
+}
