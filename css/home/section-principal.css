@@ -16,6 +16,7 @@
 
 .principal-content{
   padding-top: 100px;
+  padding-right: 20px;
   padding-left: 160px;
   display: grid;
   align-self: flex-start;
@@ -32,4 +33,44 @@
 
 .principal-content a{
   padding: 8px 16px;
+}
+.img-principal{
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (max-width:1200px){
+  .principal-content{
+    padding-bottom: 200px;
+  }
+}
+
+@media (max-width:600px) {
+  .section-principal-bg{
+    
+    
+    background-position: center center;
+    box-shadow: none;
+  }
+  .principal-container{
+   
+    padding: initial;
+    grid-template-columns: 1fr;
+  }
+  .principal-content{
+  padding: 26px;
+  justify-items: center;
+  text-align: center;
+  order: 2;
+  }
+
+  .principal-content p{
+    max-width: 35ch;
+  }
+  .principal-content a{
+    margin-bottom: 24px;
+  }
+ 
+  
 }
