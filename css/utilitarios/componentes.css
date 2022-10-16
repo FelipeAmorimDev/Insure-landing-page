@@ -4,4 +4,12 @@
 
 .botao-2{
   border: 2px solid var(--cor-5);
+  
 }
+
+.botao-pd{
+  padding: 8px 16px;
+  border: 2px solid var(--cor-5);
+  color: var(--cor-5);
+}
+

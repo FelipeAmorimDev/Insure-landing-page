@@ -1,0 +1,31 @@
+.about-us-more-bg{
+  background-color: var(--cor-1);
+}
+
+.about-us-more{
+  display: flex;
+justify-content: space-between;
+padding: 28px 16px;
+align-items: center;
+margin-bottom: 60px;
+
+}
+
+.about-us-more h2{
+  max-width: 18ch;
+  
+}
+.about-us-more a{
+  text-transform: uppercase;
+}
+
+
+@media (max-width:600px) {
+  .about-us-more{
+    padding: 60px;
+    text-align: center;
+  flex-direction: column;
+  gap: 20px;
+  }
+  
+}
