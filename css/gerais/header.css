@@ -13,16 +13,58 @@
 }
 
 .nav-menu{
+
   display: flex;
-  gap: 24px;
+  
 }
 
 .nav-menu li > a{
   padding: 8px 16px;
 }
 
-
+#botao{
+ 
+  display: none;
+  place-self: flex-end;
+}
 
 .link-nav:hover{
   color: var(--cor-1);
+}
+
+@media (max-width:600px){
+  #botao{
+    display: block;
+  }
+  .nav-menu-container{
+    display: none;
+    text-align: center;
+    padding: 20px;
+    overflow: hidden;
+    background-color: var(--cor-1);
+    flex-direction: column;
+    width: calc(100% - 40px);
+    height: calc(100vh - 128px);
+    
+    position: absolute;
+    top: 88px;
+    left: 0;
+    
+  }
+  .nav-menu li > a{
+    margin-top: 10px;
+    font-size: 1.2rem;
+    padding: 12px 24px;
+    color: var(--cor-5);
+    
+  }
+  .nav-menu li > a:hover{
+    color: var(--cor-5)
+  }
+  .nav-menu-container.active .nav-menu{
+    display:block
+  }
+  .nav-menu-container.active {
+    display: block;
+  }
 }

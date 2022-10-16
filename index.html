@@ -25,18 +25,23 @@
       color: hsl(228, 45%, 44%);
     }
   </style>
+  
 </head>
 
 <body>
   <header class="header-bg">
     <div class="header-container">
       <img src="./images/logo.svg" alt="insure">
+      <img  id="botao" src="./images/icon-hamburger.svg" alt="">
+      <nav class="nav-menu-container" id="nav-menu-c">
       <ul class="nav-menu">
-        <li><a href="#" class="font-2-s-b cor-2 link-nav">HOW WE WORK</a></li>
-        <li><a href="#" class="font-2-s-b cor-2 link-nav">BLOG</a></li>
-        <li><a href="#" class="font-2-s-b cor-2 link-nav">ACCOUNT</a></li>
-        <li><a href="#" class="font-2-s-b cor-1 botao-1">VIEW PLANS</a></li>
+        
+        <li><a href="./" class="font-2-s-b cor-2 link-nav">HOW WE WORK</a></li>
+        <li><a href="./" class="font-2-s-b cor-2 link-nav">BLOG</a></li>
+        <li><a href="./" class="font-2-s-b cor-2 link-nav">ACCOUNT</a></li>
+        <li><a href="./" class="font-2-s-b cor-1 botao-1">VIEW PLANS</a></li>
       </ul>
+    </nav>
     </div>
   </header>
 
@@ -50,7 +55,8 @@
         <a href="#" class="font-2-s-b cor-5 botao-2">View Plans</a>
       </div>
       <picture>
-        <img class="img-principal" src="./images/image-intro-desktop.jpg" alt="Grupo de pessoas feliz.">
+        <source media="(min-width: 375px)" srcset="./images/image-intro-desktop.jpg">
+        <img class="img-principal" src="./images/image-intro-mobile.jpg" alt="Grupo de pessoas feliz.">
       </picture>
     </div>
   </section>
@@ -144,10 +150,11 @@
   </footer>
 
 
-  <div class="attribution">
+  <div class="attribution" style="font-weight: bold; font-size:1.2rem;margin-top:30px">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/FelipeAmorimDev">FelipeAmorimDev</a>.
   </div>
+  <script src="./script/script.js"></script>
 </body>
 
 </html>

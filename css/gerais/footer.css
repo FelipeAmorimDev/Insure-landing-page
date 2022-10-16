@@ -13,14 +13,14 @@
 .empresa-redes{
   display: flex;
   border-bottom: 1px solid var(--cor-2);
-  padding: 30px;
+  
   align-items: center;
   justify-content: space-between;
 }
 
 .redes-lista{
   display: flex;
-  gap: 10px;
+  gap: 30px;
 }
 
 .link-secundarios{
@@ -50,11 +50,17 @@
 .lista-link span{
   margin-bottom: 20px
 }
+@media (max-width:1350px){
+  .link-secundarios{
+    text-align: center;
+  }
 
+}
 @media (max-width:600px){
   .empresa-redes{
     flex-direction: column;
     gap: 40px;
+    padding-bottom: 30px;
   }
   .link-secundarios{
     

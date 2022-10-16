@@ -4,6 +4,9 @@
   font-size: 4.5rem;
   line-height: 1.125;
 }
+.f-xxl{
+  font-size: 5rem;
+}
 
 .font-1-xl{
   font-family: 'DM Serif Display', serif;
@@ -38,6 +41,12 @@
     font-weight: 400;
     font-size: 3rem;
     line-height: 1.125;
+  }
+  .font-1-xl{
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    font-size: 2.0rem;
+    line-height: 1;
   }
   .font-2-l{
    font-size: .9rem;
