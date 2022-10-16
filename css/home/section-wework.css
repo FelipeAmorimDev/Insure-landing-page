@@ -1,18 +1,21 @@
 .about-us-more-bg{
-  background-color: var(--cor-1);
+  background-color: var(--cor-3);
 }
 
 .about-us-more{
   display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
 justify-content: space-between;
-padding: 28px 16px;
+padding: 40px;
 align-items: center;
 margin-bottom: 60px;
 
 }
 
 .about-us-more h2{
-  max-width: 18ch;
+  
+  max-width: 20ch;
   
 }
 .about-us-more a{

@@ -1,8 +1,10 @@
 .section-aboutus{
   display: grid;
   max-width: 1440px;
-  margin: 0 auto;
+  margin: 0 auto 100px;
+  gap: 100px;
   padding: 20px;
+
 }
 
 .sobre-lista{
@@ -11,8 +13,18 @@
   gap: 30px;
 }
 
+.section-aboutus h2{
+ 
+  margin-top: 60px;
+}
+
 .sobre-item p{
   max-width: 40ch;
+}
+.sobre-item{
+  display: grid;
+    gap: 20px;
+
 }
 
 @media (max-width:600px){
