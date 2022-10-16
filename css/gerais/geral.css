@@ -28,3 +28,7 @@ a{
   text-decoration: none;
   display: inline-block;
 }
+
+svg:hover path {
+  fill: var(--cor-3);
+}

@@ -13,7 +13,7 @@
 .empresa-redes{
   display: flex;
   border-bottom: 1px solid var(--cor-2);
-  padding: 20px;
+  padding: 30px;
   align-items: center;
   justify-content: space-between;
 }
@@ -26,9 +26,45 @@
 .link-secundarios{
   display: grid;
   grid-template-columns: repeat(4,1fr);
+  
 }
 
 .lista-link{
   display: grid;
+  align-items: center;
   gap: 10px;
+ 
+}
+
+.lista-link li a::after{
+  content: "";
+  display: block;
+  width:0px;
+  height:1px;
+  background-color: var(--cor-3);
+  transition: .5s;
+}
+.lista-link li a:hover::after{
+  width: 100%;
+}
+.lista-link span{
+  margin-bottom: 20px
+}
+
+@media (max-width:600px){
+  .empresa-redes{
+    flex-direction: column;
+    gap: 40px;
+  }
+  .link-secundarios{
+    
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 40px;
+  }
+  .redes-lista{
+    
+    gap: 25px;
+  }
+
 }

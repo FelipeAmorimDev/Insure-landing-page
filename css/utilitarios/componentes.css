@@ -1,15 +1,29 @@
 .botao-1{
   border: 2px solid var(--cor-1);
+  
+}
+
+.botao-1:hover{
+  background-color: var(--cor-1);
+  color: var(--cor-5);
 }
 
 .botao-2{
   border: 2px solid var(--cor-5);
   
 }
-
+.botao-2:hover{
+  background-color: var(--cor-5);
+  color: var(--cor-1);
+}
 .botao-pd{
   padding: 8px 16px;
   border: 2px solid var(--cor-5);
   color: var(--cor-5);
+}
+
+.botao-pd:hover{
+background-color: var(--cor-5);
+color: var(--cor-1);
 }
 

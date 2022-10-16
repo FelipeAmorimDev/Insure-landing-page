@@ -21,3 +21,8 @@
   padding: 8px 16px;
 }
 
+
+
+.link-nav:hover{
+  color: var(--cor-1);
+}

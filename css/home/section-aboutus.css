@@ -30,6 +30,8 @@
 @media (max-width:600px){
   .section-aboutus{
     text-align: center;
+    gap: 30px;
+    margin-bottom: 30px;
   }
   .sobre-lista{
   
@@ -38,10 +40,12 @@
   }
 
   .sobre-item{
-    display: grid;
+    gap: 10px;
     justify-items: center;
    
   }
-
- 
+  .section-aboutus h2{
+    margin-top: 30px;
+  }
+  
 }
