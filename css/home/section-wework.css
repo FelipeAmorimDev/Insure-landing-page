@@ -1,7 +1,7 @@
 .about-us-more{
   background-color: var(--cor-3);
   display: flex;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 30px 0;
   box-sizing: border-box;
