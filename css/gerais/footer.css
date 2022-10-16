@@ -13,7 +13,7 @@
 .empresa-redes{
   display: flex;
   border-bottom: 1px solid var(--cor-2);
-  
+  padding-bottom: 40px;
   align-items: center;
   justify-content: space-between;
 }
@@ -21,6 +21,7 @@
 .redes-lista{
   display: flex;
   gap: 30px;
+
 }
 
 .link-secundarios{
@@ -33,6 +34,7 @@
   display: grid;
   align-items: center;
   gap: 10px;
+  
  
 }
 
