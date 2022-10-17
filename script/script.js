@@ -6,10 +6,10 @@ function toogleMenu(){
   nav.classList.toggle("active")
   var toogleActive = nav.classList.contains("active");
   if(toogleActive){
-    menu.style.backgroundImage="url(../../images/icon-close.svg"
+    menu.style.backgroundImage="url(./images/icon-close.svg)"
   }
   else{
-    menu.style.backgroundImage="url(../../images/icon-hamburger.svg"
+    menu.style.backgroundImage="url(./images/icon-hamburger.svg)"
   }
 }
 
