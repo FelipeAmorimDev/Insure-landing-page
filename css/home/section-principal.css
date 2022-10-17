@@ -21,7 +21,7 @@
   display: none;
   position: absolute;
   right: 0px;
-  top: 835px;
+  top: 910px;
   
 }
 
@@ -108,14 +108,16 @@
     max-width: 35ch;
   }
   .principal-content a{
-    margin-bottom: 24px;
+    margin-bottom: 60px;
   }
- 
+  .principal-content h1{
+    margin-top: 60px;
+  }
   
 }
 
 @media (max-width:420px){
   #bgmainpattern2-mob{
-    top: 720px;
+    top: 840px;
     }
 }
