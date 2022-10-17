@@ -1,123 +1,148 @@
-
-.section-principal-bg{
+.section-principal-bg {
   background-color: var(--cor-3);
   box-shadow: inset 0 -120px #ffffff;
   position: relative;
-  
+
 }
-#bgmainpattern1{
+
+#bgmainpattern1 {
   position: absolute;
   top: 60%;
 }
-#bgmainpattern2{
-  
+
+#bgmainpattern2 {
+
   position: absolute;
   right: 0px;
   top: 0px;
-  
+
 }
 
-#bgmainpattern2-mob{
+#bgmainpattern2-mob {
   display: none;
   position: absolute;
   right: 0px;
   top: 910px;
-  
+
 }
 
-.principal-container{
+.principal-container {
   max-width: 1100px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   padding: 60px 0px 0px;
   padding-right: 20px;
-  
+
 }
 
-.principal-content{
+.principal-content {
   padding: 20px;
   display: grid;
   align-self: flex-start;
   justify-items: flex-start;
   gap: 26px;
 }
-.principal-content h1{
+
+.principal-content h1 {
   max-width: 15ch;
+  position: relative;
 }
 
-.principal-content p{
+.principal-content h1::after {
+  top: -20px;
+  content: "";
+  display: block;
+  width: 150px;
+  height: 2px;
+  background-color: var(--cor-5);
+  position: absolute;
+}
+
+
+.principal-content p {
   max-width: 55ch;
 }
 
-.principal-content a{
+.principal-content a {
   padding: 8px 16px;
 }
-.img-principal{
- 
+
+.img-principal {
+
   height: 100%;
   object-fit: cover;
   object-position: center;
 }
 
-@media (max-width:1200px){
-  .principal-content{
+@media (max-width:1200px) {
+  .principal-content {
     padding-bottom: 200px;
   }
 }
 
-@media (max-width:1100px){
-  #bgmainpattern1{
+@media (max-width:1100px) {
+  #bgmainpattern1 {
     display: none;
   }
-  
-  #bgmainpattern2{
+
+  #bgmainpattern2 {
     display: none;
 
   }
 }
 
 @media (max-width:600px) {
-  #bgmainpattern2-mob{
-  display: block;
+  #bgmainpattern2-mob {
+    display: block;
   }
-  .img-principal{
-  width: 100%;
+
+  .img-principal {
+    width: 100%;
   }
-  .section-principal-bg{
-    
-    
+
+  .section-principal-bg {
+
+
     background-position: center center;
     box-shadow: none;
   }
-  .principal-container{
-   
+
+  .principal-content h1::after {
+    display: none;
+  }
+
+  .principal-container {
+
     padding: initial;
     grid-template-columns: 1fr;
   }
-  .principal-content{
-  background-image: url("../../images/bg-pattern-intro-left-mobile.svg");
-  background-repeat: no-repeat;
-  padding: 26px;
-  justify-items: center;
-  text-align: center;
-  order: 2;
+
+  .principal-content {
+    background-image: url("../../images/bg-pattern-intro-left-mobile.svg");
+    background-repeat: no-repeat;
+    padding: 26px;
+    justify-items: center;
+    text-align: center;
+    order: 2;
   }
 
-  .principal-content p{
+  .principal-content p {
     max-width: 35ch;
   }
-  .principal-content a{
+
+  .principal-content a {
     margin-bottom: 60px;
   }
-  .principal-content h1{
+
+  .principal-content h1 {
     margin-top: 60px;
   }
-  
+
 }
 
-@media (max-width:420px){
-  #bgmainpattern2-mob{
+@media (max-width:420px) {
+  #bgmainpattern2-mob {
     top: 840px;
-    }
+  }
 }
