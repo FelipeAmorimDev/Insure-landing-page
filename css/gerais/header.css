@@ -55,7 +55,7 @@
     overflow: hidden;
     width: calc(100% - 40px);
     height: 0px;
-    transition: .3s;
+    transition: height  linear .6s;
     position: absolute;
     top: 88px;
     left: 0;
