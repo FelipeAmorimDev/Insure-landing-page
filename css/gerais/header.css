@@ -23,8 +23,10 @@
 }
 
 #botao{
- 
+  background-image: url("../../images/icon-hamburger.svg");
   display: none;
+  width: 32px;
+  height: 32px;
   place-self: flex-end;
 }
 
@@ -37,11 +39,16 @@
     display: block;
   }
   .nav-menu-container{
+    z-index: 2000;
     display: none;
     text-align: center;
     padding: 20px;
     overflow: hidden;
     background-color: var(--cor-1);
+    background-image: url("../../images/bg-pattern-mobile-nav.svg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
     flex-direction: column;
     width: calc(100% - 40px);
     height: calc(100vh - 128px);
@@ -52,12 +59,19 @@
     
   }
   .nav-menu li > a{
+    width: calc(100% - 50px);
     margin-top: 10px;
     font-size: 1.2rem;
     padding: 12px 24px;
     color: var(--cor-5);
+   
+    
     
   }
+
+#botao-menu1{
+  border: 2px solid var(--cor-2);
+}
   .nav-menu li > a:hover{
     color: var(--cor-5)
   }

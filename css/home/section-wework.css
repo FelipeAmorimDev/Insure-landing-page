@@ -9,7 +9,9 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 60px;
-
+  background-image: url("../../images/bg-pattern-how-we-work-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .about-us-more h2{
@@ -28,6 +30,7 @@
     padding-left: initial;
   }
   .about-us-more{
+    background-image: url("../../images/bg-pattern-how-we-work-mobile.svg");
     padding: 60px;
     text-align: center;
   flex-direction: column;
